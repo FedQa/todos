@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(162, 161, 161);
+    font-family: "Poppins", sans-serif;
+}
+
+.App {
+    height: 100vh;
+}

@@ -1,0 +1,66 @@
+
+
+.todoApp {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo__panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.todoApp__header {
+    color: bisque;
+    font-weight: 400;
+}
+
+.todoList {
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.todo__itemsLeft {
+    display: flex;
+    align-items: center;
+    color: lightgoldenrodyellow;
+    font-size: 20px;
+}
+
+.todoForm {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.todo__panel__button {
+    border: none;
+}
+
+.todo__deleteItem {
+    border: none;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo__text {
+    color: white;
+}
+
+.todo__checkbox {
+    width: 20px;
+}
+
+.todo__panel__buttons {
+    display: flex;
+    gap: 15px;
+}
