@@ -2,11 +2,6 @@ import React from 'react';
 import Todo from "./Todo.tsx";
 import './../styles/TodoApp.css'
 
-
-interface TodoListProps {
-    todos: string[];
-}
-
 export const TodoList = ({todos, remove, toggleComplete}) => {
     return (
         <div className="todoList">

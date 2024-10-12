@@ -3,7 +3,6 @@ import AddTodoForm from "./AddTodoForm.tsx";
 import {TodoList} from "./TodoList.tsx";
 import '../styles/TodoApp.css'
 import Button from "../UI/Button/Button";
-import Todo from "./Todo";
 
 
 interface TodoProps {
